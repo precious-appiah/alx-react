@@ -18,11 +18,11 @@ function App() {
         <input name="email" />
         <label htmlFor="password">Password</label>
         <input name="password"/>
-        <button >OK</button>
+        <button>OK</button>
       </div>
       <div className="App-footer">
         <p>
-          {date} - {name}
+          {date} - {name} 
         </p>
       </div>
     </section>
