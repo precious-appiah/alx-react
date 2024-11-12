@@ -1,0 +1,13 @@
+.App-header {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.App-header h2 {
+  color: red;
+}
+.App-header img {
+  width: 100px;
+  height: 100px;
+}
