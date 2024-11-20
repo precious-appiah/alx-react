@@ -1,13 +1,7 @@
-const { Map } = require("immutable");
+const { Map } = require('immutable');
 
-function getImmutableObject(obj) {
-  console.log(Map(obj));
+function getImmutableObject (obj) {
   return Map(obj);
 }
 
-getImmutableObject({
-  fear: true,
-  smell: -1033575916.9145899,
-  wall: false,
-  thing: -914767132,
-});
+module.exports = { getImmutableObject };
